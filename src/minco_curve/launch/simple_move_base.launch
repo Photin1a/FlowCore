@@ -1,0 +1,7 @@
+<launch>
+    <arg name="fixed_frame" default="world"/>
+
+    <node pkg="minco_curve" type="test_node" name="minco_curve" output="screen"/>;
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find minco_curve)/rviz/display.rviz" output="screen"/>
+    <node pkg="map_server" type="map_server" name="map_server" args="$(find minco_curve)/maps/map.yaml"/>
+</launch>

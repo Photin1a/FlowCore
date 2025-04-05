@@ -1,0 +1,11 @@
+minco_curve.zip
+minco_curve2.zip
+minco_curve3.zip
+.catkin_tools/
+.vscode/
+build/
+devel/
+logs/
+ompl/
+.catkin_workspace
+.log/
